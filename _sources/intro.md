@@ -1,0 +1,7 @@
+# Introducción
+
+En la era digital, la eficacia de las campañas publicitarias es crucial para el éxito de las marcas en un mercado altamente competitivo. Este artículo explora cómo el análisis de sentimientos, implementado mediante algoritmos de clasificación, puede optimizar las estrategias publicitarias. Utilizando técnicas avanzadas de procesamiento de lenguaje natural y machine learning, se analizan grandes volúmenes de datos provenientes de la red social de twitter, donde reseñas de productos y comentarios de usuarios pueden ayudar a identificar patrones y tendencias en las percepciones de los consumidores. Los resultados de un estudio así pueden demostrar que la incorporación del análisis de sentimientos permite una segmentación más precisa del mercado, una personalización de los mensajes publicitarios y una mejora en la toma de decisiones estratégicas. Este estudio destaca el potencial del análisis de sentimientos como una herramienta poderosa para mejorar la efectividad y el retorno de inversión de las campañas publicitarias, proporcionando a los profesionales de marketing un enfoque basado en datos para abordar las necesidades y preferencias de los consumidores.
+
+
+## Presentado por: 
+- Jesus Arevalo
