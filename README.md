@@ -43,7 +43,7 @@ Este proyecto es un dashboard interactivo creado con Dash para el análisis de s
     python app.py
     ```
 
-2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard. También puedes acceder por medio del siguiente link: [https://proyectofinal-machinelearning.vercel.app/](https://proyectofinal-machinelearning.vercel.app/).
+2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard.
 
 ## Descripción de las Páginas
 
