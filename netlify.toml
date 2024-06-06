@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt && pip install gunicorn && gunicorn functions.app:server"
+  command = "pip install -r requirements.txt && gunicorn -b 0.0.0.0:8000 functions.app:server"
 
 [build.environment]
   PYTHON_VERSION = "3.8"
