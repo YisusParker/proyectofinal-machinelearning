@@ -5,8 +5,9 @@ Este proyecto es un dashboard interactivo creado con Dash para el análisis de s
 ## Archivos y Directorios
 
 - `app.py`: Este archivo configura la aplicación Dash y maneja la navegación entre las páginas.
-- `index.py`: Archivo inicial del proyecto.
+
 - `pages/`: Contiene los archivos para cada una de las páginas del dashboard.
+  - `index.py`: Archivo inicial del proyecto.
   - `description.py`: Contiene la descripción del proyecto.
   - `eda.py`: Contiene el análisis exploratorio de datos.
   - `models.py`: Contiene la comparación de los modelos de clasificación.
