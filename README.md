@@ -1,5 +1,8 @@
+# Sentiment Analysis Dashboard
 
-### Archivos y Directorios
+Este proyecto es un dashboard interactivo creado con Dash para el análisis de sentimientos en Twitter. Utiliza algoritmos de clasificación para optimizar las estrategias publicitarias mediante el análisis de comentarios en la red social.
+
+## Archivos y Directorios
 
 - `app.py`: Este archivo configura la aplicación Dash y maneja la navegación entre las páginas.
 - `index.py`: Archivo inicial del proyecto.
@@ -39,7 +42,7 @@
     python app.py
     ```
 
-2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard tambien puedes acceder por medio del siguiente link: `https://proyectofinal-machinelearning.vercel.app/` .
+2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard. También puedes acceder por medio del siguiente link: [https://proyectofinal-machinelearning.vercel.app/](https://proyectofinal-machinelearning.vercel.app/).
 
 ## Descripción de las Páginas
 
@@ -71,4 +74,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ---
 
-Desarrollado por [Tu Nombre]
+Desarrollado por [Jesús David Arévalo Montilla]
