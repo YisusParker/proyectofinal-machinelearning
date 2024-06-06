@@ -48,4 +48,5 @@ def display_page(pathname):
 
 # Ejecutar la aplicación
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    #app.run_server(debug=True)
+    app.run_server(debug=True, port=8000, host='0.0.0.0')

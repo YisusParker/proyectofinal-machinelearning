@@ -39,7 +39,7 @@
     python app.py
     ```
 
-2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard tambien puedes acceder por medio del siguiente link: '' .
+2. Abre tu navegador web y navega a `http://127.0.0.1:8050` para ver el dashboard tambien puedes acceder por medio del siguiente link: `https://proyectofinal-machinelearning.vercel.app/` .
 
 ## Descripción de las Páginas
 
