@@ -1,13 +1,15 @@
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
+from flask import Flask
 
-# Importar los módulos de las páginas
-from pages import index, eda, models, description
+# Inicializar el servidor Flask
+server = Flask(__name__)
 
 # Inicializar la aplicación Dash
 app = dash.Dash(
     __name__,
+    server=server,
     suppress_callback_exceptions=True,
     external_stylesheets=[
         "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
@@ -15,6 +17,9 @@ app = dash.Dash(
     ],
 )
 app.title = "Proyecto Machine Learning"
+
+# Importar los módulos de las páginas
+from pages import index, eda, models, description
 
 # Definir el layout principal con un menú de navegación
 app.layout = html.Div(
@@ -44,6 +49,5 @@ def display_page(pathname):
     else:
         return index.layout
 
-# Ejecutar la aplicación
 if __name__ == "__main__":
     app.run_server(debug=True)
