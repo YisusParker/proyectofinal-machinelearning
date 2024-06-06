@@ -68,9 +68,6 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 4. Empuja los cambios a tu fork (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
 
