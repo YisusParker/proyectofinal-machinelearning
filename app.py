@@ -32,7 +32,6 @@ app.layout = html.Div(
     ]
 )
 
-
 # Callback para actualizar la página según la URL
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def display_page(pathname):
@@ -45,8 +44,6 @@ def display_page(pathname):
     else:
         return index.layout
 
-
 # Ejecutar la aplicación
 if __name__ == "__main__":
-    #app.run_server(debug=True)
-    app.run_server(debug=True, port=8000, host='0.0.0.0')
+    app.run_server(debug=True)
